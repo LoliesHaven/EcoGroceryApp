@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+</head>
+<body>
+    <h1>Profile</h1>
+    <p>Username: <%= user.username %></p>
+    <p>Password: <%= user.password %></p>
+    <p>Email: <%= user.email %></p>
+    <a href="/edit-profile">Edit Profile</a>
+    <form action="/delete-account" method="post">
+        <button type="submit">Delete Account</button>
+    </form>
+</body>
+</html>
