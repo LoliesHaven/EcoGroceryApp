@@ -22,7 +22,7 @@ const connection = mysql.createConnection({
     user: 'toshiro',
     password: 'Lolieshaven1234',
     database: 'toshiro_rp'
-});g
+});
 connection.connect((err) => {
     if (err) {
         console.error('Error connecting to MySQL:', err);
